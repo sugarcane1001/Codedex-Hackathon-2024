@@ -1,0 +1,15 @@
+/* Push the logo to top left */
+.navbar-brand {
+    margin-right: auto;
+}
+
+/* Style navbar links */
+.navbar-nav .nav-link {
+    color: black; /* Set color to black */
+}
+
+/* Style Reserve Now button */
+.navbar-nav .btn-primary {
+    background-color: #84d18c;
+    border-color: transparent;
+}
