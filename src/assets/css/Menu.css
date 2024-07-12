@@ -5,63 +5,63 @@
 
 .scene-container {
   position: relative;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden; 
-  font-family: 'Saira', sans-serif; 
+  width: 100vw;
+  min-height: calc(100vh - 100px); /* Ensure it takes the full height minus footer */
+  padding-bottom: 100px; /* Prevent overlap with footer */
 }
 
 .menu-container {
+  font-family: 'Saira';
   display: flex;
-  justify-content: space-between; 
-  padding: 20px;
-  font-size: 16px; 
+  flex-direction: column; /* Column for mobile */
+  justify-content: space-between;
+  padding: 40px 20px 30px 20px; /* Adjust padding for mobile */
+  font-size: 16px;
   color: #333;
-  text-align: left; 
+  text-align: left;
 }
 
 .menu-category {
-  width: 30%; 
+  width: 100%; /* Full width for mobile */
   margin-bottom: 40px;
 }
 
 .category-title {
-  font-size: 24px; 
+  display: block;
+  margin-bottom: 30px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .menu-columns {
   display: flex;
-  justify-content: space-between; 
+  flex-direction: column; /* Column for mobile */
+  justify-content: space-between;
 }
 
 .menu-column {
-  flex: 1; 
-  margin-right: 20px; 
-  text-align: left;
+  flex: 1;
+  margin-bottom: 20px;
 }
 
 .menu-item {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .renderer-container {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  width: 400px;
-  height: 400px;
+  width: 100%; /* Full width for mobile */
+  height: auto; /* Auto height for mobile */
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0 auto; /* Center on mobile */
 }
 
 .menu-toppings {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
   font-size: 16px;
   color: #333;
   padding-top: 10px;
+  margin-bottom: 50px; /* Add margin to avoid footer overlap */
 }
 
 .menu-toppings strong {
@@ -71,30 +71,40 @@
 }
 
 .menu-toppings p {
-  padding-top: 30px; /* Add padding */
+  padding-top: 10px; /* Add padding */
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
+  .scene-container {
+    min-height: auto; /* Override for larger screens */
+    padding-bottom: 0; /* Override for larger screens */
+  }
+
   .menu-container {
-    flex-direction: column; 
+    flex-direction: row; /* Row for larger screens */
+    flex-wrap: wrap; /* Allow wrapping */
   }
 
   .menu-category {
-    width: 100%; 
-    margin-bottom: 30px;
+    width: calc(33.33% - 40px); /* Three columns */
+    margin: 20px; /* Add margin for spacing */
   }
 
   .menu-columns {
-    flex-direction: column; 
+    flex-direction: row; /* Row for larger screens */
   }
 
-  .menu-column {
-    flex: 1; 
-    margin-right: 0; 
-    margin-bottom: 40px; 
+  .renderer-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    height: 400px;
   }
 
-  .category-title {
-    text-align: left; 
+  .menu-toppings {
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
   }
 }
