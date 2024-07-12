@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import '../assets/css/menu.css';
+import '../assets/css/Menu.css';
 
 const Menu = () => {
   const mountRef = useRef(null);

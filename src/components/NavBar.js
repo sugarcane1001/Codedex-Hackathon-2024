@@ -7,7 +7,9 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt="My Logo" />
+        <Link to="/">
+          <img src={logo} alt="My Logo" style={{ filter: 'brightness(1.5)' }} />
+        </Link>
       </div>
       <ul className="navbar-links">
         <li>
