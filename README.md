@@ -49,10 +49,10 @@ To run this project locally, follow these steps:
     ```
 
 4. **Access the website:**
-    Open your browser and navigate to `http://localhost:3000`.
+    Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
 
 5. **Access the website through vercel:**
-    Alternatively you can access the website from our vercel deployment here `https://codedex-hackathon-2024-lac.vercel.app/`.
+    Alternatively, you can access the website from our Vercel deployment [here](https://codedex-hackathon-2024-lac.vercel.app/).
 
 ## Usage
 
