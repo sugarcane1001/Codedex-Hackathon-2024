@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Board Game Cafe Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to our Board Game Cafe website! This project is developed to create an engaging and user-friendly platform for Sip & Play board game cafe, featuring an event calendar, 3D menu, and responsive design.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Demo](#demo)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home Page:** Welcoming visitors with an overview of the café and its offerings.
+- **Event Calendar:** Displaying upcoming events and activities at the café with an easy-to-navigate calendar.
+- **Interactive 3D Menu:** Explore our offerings with a visually appealing 3D coffee cup.
+- **User-Friendly UI/UX:** Navigate effortlessly through a clean and intuitive interface.
+- **Responsive Design:** Ensuring usability across devices, including mobile phones.
+- **SEO Optimized:** Enhancing visibility on search engines.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **Tech Stack:** React.js, HTML, CSS, Three.js
+- **Version Control:** Git, GitHub
+- **Deployment:** Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone https://github.com/sugarcane1001/Codedex-Hackathon-2024
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate to the project directory and install dependencies:**
 
-### `npm run eject`
+    ```bash
+    cd Codedex-Hackathon-2024
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Start the development server:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Access the website:**
+    Open your browser and navigate to `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. **Access the website through vercel:**
+    Alternatively you can access the website from our vercel deployment here `https://codedex-hackathon-2024-lac.vercel.app/`.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Event Calendar:** Navigate to the Events section to view upcoming events.
+- **Board Game Collection:** The Event page also has a link to all the board game collections Sip & Play offers.
+- **3D Menu:** Explore the 3D coffee cup in the Menu section.
+- **Responsive Design:** Use the site on any device, from desktops to mobile phones.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Folder Structure
 
-### Code Splitting
+- **public/**: Static files.
+- **src/**: React components, assets, and styles.
+- **components/**: Contains reusable components such as the navbar, footer, and event calendar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Demo
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Alt text](https://img.youtube.com/vi/bRYElax9XcE/0.jpg)](https://www.youtube.com/watch?v=bRYElax9XcE)
