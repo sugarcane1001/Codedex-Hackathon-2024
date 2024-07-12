@@ -61,12 +61,6 @@ To run this project locally, follow these steps:
 - **3D Menu:** Explore the 3D coffee cup in the Menu section.
 - **Responsive Design:** Use the site on any device, from desktops to mobile phones.
 
-## Folder Structure
-
-- **public/**: Static files.
-- **src/**: React components, assets, and styles.
-- **components/**: Contains reusable components such as the navbar, footer, and event calendar.
-
 ## Demo
 
 [![Alt text](https://img.youtube.com/vi/bRYElax9XcE/0.jpg)](https://www.youtube.com/watch?v=bRYElax9XcE)
