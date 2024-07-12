@@ -20,7 +20,7 @@ const NavBar = () => {
           <Link to="/Menu" style={{ fontSize: '1.5rem' }}>Menu</Link>
         </li>
         <li>
-          <Link to="/ContactUs" style={{ fontSize: '1.5rem' }}>Contuct Us</Link>
+          <Link to="/ContactUs" style={{ fontSize: '1.5rem' }}>Feedback</Link>
         </li>
         <li className="button-link">
           <a href="https://www.exploretock.com/sipnplay/" style={{ fontSize: '1.5rem' }} target="_blank" rel="noopener noreferrer">Reserve Now!</a>

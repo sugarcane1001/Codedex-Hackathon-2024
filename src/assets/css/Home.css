@@ -1,14 +1,50 @@
+@font-face {
+  font-family: 'Saira'; 
+  src: url('../SairaCondensed-Regular.ttf') format('truetype'); 
+}
 
-.home {
-    padding: 2rem;
-    text-align: center;
+.home-container {
+  font-family: 'Saira';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.home-container h1{
+  text-align: center;
+  font-family: "Saira";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.horizontal-box {
+  text-align: center;
+  font-family: "Saira";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   }
-  
-  .home h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .home p {
-    font-size: 1.2rem;
-  }
+
+.vertical-boxes {
+  font-family: 'Saira';
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  width: 80%; 
+}
+
+.vertical-box {
+  text-align: center;
+  font-family: "Saira";
+  font-size: 25px;
+  font-style: normal;
+  line-height: normal;
+  width: 45%; 
+  margin: 10px; 
+}

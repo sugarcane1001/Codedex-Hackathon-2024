@@ -19,16 +19,16 @@
   }
 
   .content-text h2 {
-    font-family: 'Saira'; 
+    font-family:'Saira';
 }
   
   .content-text {
+    font-family: 'Saira';
     margin-bottom: 40px;
   }
   
   .content-text h2 {
     color: #343a40;
-    font-family: 'Arial', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 20px;
   }
