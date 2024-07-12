@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Saira'; 
+    src: url('../SairaCondensed-Regular.ttf') format('truetype'); 
+  }
+  
+  .contactus-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 40px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .contactus-form {
+    flex: 1;
+    padding: 40px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    max-width: 600px; 
+  }
+  
+  .contactus-form h2 {
+    font-family: 'Saira', sans-serif;
+    color: #343a40;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: left; 
+  }
+  
+  .contactus-form hr {
+    border: none;
+    border-top: 2px solid #343a40; 
+    width: 50%; 
+    margin-bottom: 20px; 
+  }
+  
+  .contactus-form p {
+    font-family: 'Saira', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .contactus-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contactus-form .form-group label {
+    display: block;
+    font-family: 'Saira', sans-serif;
+    color: #495057;
+    margin-bottom: 5px;
+  }
+  
+  .contactus-form .form-group input,
+  .contactus-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .contactus-form .form-group textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  .contactus-form button {
+    padding: 10px 20px;
+    font-family: 'Saira', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactus-form button:hover {
+    background-color: #388e3c;
+  }
+  
+  .contactus-image {
+    flex: 1;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contactus-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  

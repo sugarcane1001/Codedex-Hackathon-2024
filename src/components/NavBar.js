@@ -1,9 +1,7 @@
-// src/components/NavBar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/css/NavBar.css';
 import logo from '../assets/images/logo.png';
-
 
 const NavBar = () => {
   return (
@@ -22,10 +20,10 @@ const NavBar = () => {
           <Link to="/Menu" style={{ fontSize: '1.5rem' }}>Menu</Link>
         </li>
         <li>
-          <Link to="/" style={{ fontSize: '1.5rem' }}>Feedback</Link>
+          <Link to="/ContactUs" style={{ fontSize: '1.5rem' }}>Contuct Us</Link>
         </li>
         <li className="button-link">
-          <a href="https://www.exploretock.com/sipnplay/" style={{ fontSize: '1.5rem' }}>Reserve Now!</a>
+          <a href="https://www.exploretock.com/sipnplay/" style={{ fontSize: '1.5rem' }} target="_blank" rel="noopener noreferrer">Reserve Now!</a>
         </li>
       </ul>
     </nav>

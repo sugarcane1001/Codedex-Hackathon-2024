@@ -33,13 +33,13 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           <div className="social-media-icons">
-            <a href="https://www.instagram.com/sipnplaynyc/?hl=en" className="social-icon">
+            <a href="https://www.instagram.com/sipnplaynyc/?hl=en" className="social-icon" target="_blank" rel="noopener noreferrer">
               <img src={instagramLogo} alt="Instagram" />
             </a>
-            <a href="https://www.tiktok.com/@sipnplaynycofficial" className="social-icon">
+            <a href="https://www.tiktok.com/@sipnplaynycofficial" className="social-icon" target="_blank" rel="noopener noreferrer">
               <img src={tiktokLogo} alt="Tiktok" />
             </a>
-            <a href="https://www.facebook.com/sipnplaynyc/" className="social-icon">
+            <a href="https://www.facebook.com/sipnplaynyc/" className="social-icon" target="_blank" rel="noopener noreferrer">
               <img src={facebookLogo} alt="Facebook" />
             </a>
             <div className="reserve-button">

@@ -40,7 +40,7 @@ const EventCalendar = () => {
           events={events}
           startAccessor="start"
           endAccessor="end"
-          style={{ height: '100%' }}
+          style={{ height: '100%', fontFamily: 'Saira' }}
         />
       </div>
     </div>

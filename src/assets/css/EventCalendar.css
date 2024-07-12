@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Saira'; 
+  src: url('../SairaCondensed-Regular.ttf') format('truetype'); 
+}
 
 .calendar-container {
     max-width: 1000px;
@@ -13,6 +17,7 @@
     color: #343a40; 
     font-family: 'Arial', sans-serif;
     margin-bottom: 20px;
+    font-family: 'Saira';
   }
   
   .rbc-calendar {

@@ -1,16 +1,20 @@
+@font-face {
+  font-family: 'Saira'; 
+  src: url('../SairaCondensed-Regular.ttf') format('truetype'); 
+}
 
 .footer {
     background-color: #DEE9D3;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
-    font-family: 'Saira Condensed';
+    font-family: 'Saira';
+    height: auto;
   }
   
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
     margin: 0 auto;
   }
   
@@ -21,7 +25,7 @@
   }
 
   .footer-left{
-    padding-left: 10px;
+    padding-left: 0px;
   }
   
   .footer-center {
@@ -63,6 +67,10 @@
     border: none;
     cursor: pointer;
     height: 50px;
-    width: 150px;
+    width: 120px;
+    font-family: 'Saira';
   }
   
+  .reserve-btn:hover {
+    background-color: #4caf50; 
+  }
