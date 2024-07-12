@@ -1,0 +1,67 @@
+.scene-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px 30px 40px;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+
+.menu-category {
+  width: 30%;
+}
+
+.category-title {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.menu-item {
+  margin-bottom: 50px;
+}
+
+.renderer-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+.menu-toppings {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 16px;
+  color: #333;
+  padding-top: 10px;
+}
+
+.menu-toppings strong {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.menu-toppings p {
+  padding-top: 30px; /* Add padding */
+}

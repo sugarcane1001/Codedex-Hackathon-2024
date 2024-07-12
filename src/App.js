@@ -7,6 +7,8 @@ import Events from './pages/Events';
 import Footer from './components/Footer';
 import './App.css';
 import ContactUs from './pages/ContuctUs';
+import Menu from './pages/Menu';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Events" element={<Events />} />
+          <Route path="/Menu" element={<Menu />} />
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
         <Footer />
