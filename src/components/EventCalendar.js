@@ -10,25 +10,30 @@ const localizer = momentLocalizer(moment);
 const EventCalendar = () => {
   const [events, setEvents] = useState([
     {
-      title: 'Dungeons and Dragons',
-      start: new Date(2024, 6, 12, 19, 0),
-      end: new Date(2024, 6, 12, 23, 0),
+      title: 'Catan',
+      start: new Date(2024, 6, 13, 10, 0),
+      end: new Date(2024, 6, 13, 16, 0),
     },
     {
-      title: 'Chess Tournament',
+      title: 'Ticket To Ride',
       start: new Date(2024, 6, 15, 12, 0),
       end: new Date(2024, 6, 15, 18, 0),
     },
     {
-        title: 'Windmill Valley',
-        start: new Date(2024, 6, 25, 10, 0),
-        end: new Date(2024, 6, 25, 16, 0),
+        title: 'Pandemic Legacy',
+        start: new Date(2024, 6, 25, 11, 0),
+        end: new Date(2024, 6, 25, 17, 0),
     },
     {
-        title: 'Rogue Seas',
-        start: new Date(2024, 6, 30, 1, 0),
-        end: new Date(2024, 6, 30, 19, 0),
+        title: 'Fallout',
+        start: new Date(2024, 6, 31, 14, 0),
+        end: new Date(2024, 6, 31, 20, 0),
     },
+    {
+      title: 'Star Wars: Rebellion',
+      start: new Date(2024, 7, 3, 12, 0),
+      end: new Date(2024, 7, 3, 18, 0),
+  },
   ]);
 
   return (

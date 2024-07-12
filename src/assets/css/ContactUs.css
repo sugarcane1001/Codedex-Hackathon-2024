@@ -99,3 +99,36 @@
     object-fit: cover;
   }
   
+  .success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #c3e6cb;
+  }
+  
+  @media (max-width: 768px) {
+    .contactus-container {
+      flex-direction: column; 
+    }
+  
+    .contactus-form {
+      padding: 20px; 
+      max-width: 100%; 
+    }
+  
+    .contactus-image {
+      display: none; 
+    }
+  
+    .contactus-form h2 {
+      font-size: 1.5rem; 
+    }
+  
+    .contactus-form hr {
+      width: 30%; 
+      margin-bottom: 10px; 
+    }
+  }
+  

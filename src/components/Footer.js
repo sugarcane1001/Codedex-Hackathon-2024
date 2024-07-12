@@ -43,7 +43,9 @@ const Footer = () => {
               <img src={facebookLogo} alt="Facebook" />
             </a>
             <div className="reserve-button">
+            <a href="https://www.exploretock.com/sipnplay/" target="_blank" rel="noopener noreferrer">
                 <button className="reserve-btn" style={{ fontSize: "large" }}>Reserve Now!</button>
+              </a>
             </div>
           </div>
         </div>
