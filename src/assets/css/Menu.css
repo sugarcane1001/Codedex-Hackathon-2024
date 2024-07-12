@@ -3,47 +3,48 @@
   src: url('../SairaCondensed-Regular.ttf') format('truetype'); 
 }
 
-
 .scene-container {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+  font-family: 'Saira', sans-serif; 
 }
 
 .menu-container {
-  font-family: 'Saira';
   display: flex;
-  justify-content: space-between;
-  padding: 40px 0px 30px 40px;
-  font-size: 16px;
+  justify-content: space-between; 
+  padding: 20px;
+  font-size: 16px; 
   color: #333;
-  text-align: left;
+  text-align: left; 
 }
 
 .menu-category {
-  width: 30%;
+  width: 30%; 
+  margin-bottom: 40px;
 }
 
 .category-title {
-  display: block;
-  margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 24px; 
   font-weight: bold;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .menu-columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .menu-column {
-  flex: 1;
-  margin-right: 20px;
+  flex: 1; 
+  margin-right: 20px; 
+  text-align: left;
 }
 
 .menu-item {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .renderer-container {
@@ -72,3 +73,31 @@
 .menu-toppings p {
   padding-top: 30px; /* Add padding */
 }
+<<<<<<< Updated upstream:src/assets/css/Menu.css
+=======
+
+@media (max-width: 768px) {
+  .menu-container {
+    flex-direction: column; 
+  }
+
+  .menu-category {
+    width: 100%; 
+    margin-bottom: 30px;
+  }
+
+  .menu-columns {
+    flex-direction: column; 
+  }
+
+  .menu-column {
+    flex: 1; 
+    margin-right: 0; 
+    margin-bottom: 40px; 
+  }
+
+  .category-title {
+    text-align: left; 
+  }
+}
+>>>>>>> Stashed changes:src/assets/css/menu.css

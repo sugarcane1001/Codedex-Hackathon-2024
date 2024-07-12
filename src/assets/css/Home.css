@@ -9,42 +9,64 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; 
+  padding: 20px;
+  background-color: #f1f3f4; 
+  color: #343a40; 
 }
 
-.home-container h1{
+.home-container h1 {
   text-align: center;
-  font-family: "Saira";
-  font-size: 45px;
-  font-style: normal;
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: normal;
+  margin-bottom: 20px;
 }
 
-.horizontal-box {
-  text-align: center;
-  font-family: "Saira";
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  }
+.horizontal-box, .vertical-box {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.horizontal-box p, .vertical-box p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
 
 .vertical-boxes {
-  font-family: 'Saira';
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%; 
 }
 
 .vertical-box {
-  text-align: center;
-  font-family: "Saira";
-  font-size: 25px;
-  font-style: normal;
-  line-height: normal;
-  width: 45%; 
-  margin: 10px; 
+  flex-basis: 100%; 
+}
+
+.vertical-box.our-story {
+  background-color: #f1f3f4; 
+}
+
+.vertical-box.birthday-package {
+  background-color: #d1e7dd; 
+}
+
+.vertical-box.pricing {
+  background-color: #f1f3f4; 
+}
+
+.vertical-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.vertical-box li {
+  margin-bottom: 10px;
+}
+
+.vertical-box li b {
+  font-weight: bold;
+}
+
+.vertical-box i {
+  font-style: italic;
 }
