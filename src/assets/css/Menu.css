@@ -73,8 +73,6 @@
 .menu-toppings p {
   padding-top: 30px; /* Add padding */
 }
-<<<<<<< Updated upstream:src/assets/css/Menu.css
-=======
 
 @media (max-width: 768px) {
   .menu-container {
@@ -100,4 +98,3 @@
     text-align: left; 
   }
 }
->>>>>>> Stashed changes:src/assets/css/menu.css
