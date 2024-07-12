@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Saira'; 
+  src: url('../SairaCondensed-Regular.ttf') format('truetype'); 
+}
+
+
 .scene-container {
   position: relative;
   width: 100vw;
@@ -5,6 +11,7 @@
 }
 
 .menu-container {
+  font-family: 'Saira';
   display: flex;
   justify-content: space-between;
   padding: 40px 0px 30px 40px;
