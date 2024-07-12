@@ -1,0 +1,68 @@
+
+.footer {
+    background-color: #DEE9D3;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Saira Condensed';
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1;
+  }
+
+  .footer-left{
+    padding-left: 10px;
+  }
+  
+  .footer-center {
+    flex: 1.5;
+    text-align: center;
+  }
+  
+  .footer-center div {
+    margin: 50px;
+  }
+
+  .hours {
+    text-align: center;
+  }
+  
+  .social-media-icons, .reserve-button {
+    text-align: center;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+.social-icon img {
+    width: 30px; 
+    height: auto; 
+  }  
+  
+  .reserve-button {
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+  
+  .reserve-btn {
+    background-color: #69D385;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+  }
+  
