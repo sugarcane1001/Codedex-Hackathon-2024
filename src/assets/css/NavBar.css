@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Saira'; 
+    src: url('../SairaCondensed-Regular.ttf') format('truetype'); 
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Saira';
+    background-image: url('../images/header1.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+  }
+
+  
+  .navbar-logo img {
+    width: 400px; 
+    height: auto; 
+    margin-left: 20px;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+  }
+  
+  .navbar-links li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .navbar-links a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+
+  .button-link {
+  
+    display: inline-block; 
+    background-color: #69D385; 
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: background-color 0.8s ease;
+  }
+  
+  .button-link:hover {
+    background-color: #36A053; 
+  }
+  
